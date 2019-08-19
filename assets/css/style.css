@@ -109,7 +109,8 @@ header {
 
 .heading {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 180px;
+    
 }
 
 .logo {
@@ -118,7 +119,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #D9D9D8;
-    min-height: 200px;
+    min-height: 160px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -131,7 +132,6 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #625986;
-    text-align: center;
 }
 
 .title {
@@ -141,7 +141,7 @@ header {
     margin-top: 5px;
     margin-bottom: 20px;
     color: #C52639;
-    text-align: center;
+    text-align: left;
 }
 
 .list-inline-item:not(:last-child) {
@@ -386,6 +386,14 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+.index {
+    margin-top:25px;
+    min-width: 50px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #e84610;
+    
 }
 
 /* ----------------------------------------Media Queries */
