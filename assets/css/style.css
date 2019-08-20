@@ -64,14 +64,6 @@
     font-weight: bold;
 }
 
-.portfolio-items {
-    color: white;
-}
-
-.examples {
-    color: white;
-
-}
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -114,6 +106,10 @@ h4 {
     margin-bottom: 40px;
 }
 
+.bottom-resume {
+    padding: 0 130px 130px;
+    
+}
 
 
 /*--------------------------------------------Heading*/
@@ -124,7 +120,7 @@ header {
 
 .heading {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-bottom: 30px;
 }
 
@@ -147,8 +143,9 @@ header {
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 130px;
     color: #625986;
-    text-align: center;
+    text-align: left;
 }
 
 .title {
@@ -157,8 +154,9 @@ header {
     font-size: 40px;
     margin-top: 5px;
     margin-bottom: 20px;
+    margin-left: 130px;
     color: #C52639;
-    text-align: center;
+    text-align: left;
 }
 
 .list-inline-item:not(:last-child) {
@@ -212,36 +210,36 @@ header {
 /*----------------------summary----------------------*/
 
 .topline {
-    padding-top: 80px;
-    padding-bottom: 30px;
-    margin-bottom: 100;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 200;
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     color: #625986;
 }
 
 .middleline {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 200;
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     color: #625986;
 }
 
 .bottomline {
-    padding-top: 30px;
-    padding-bottom: 80px;
-    margin-bottom: 100;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
     margin-left: 200;
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     color: #625986;
@@ -252,7 +250,7 @@ header {
 /* hvr-underline-from-center:before */
 
 hvr-outline-out {
-    background: rgba(0, 0, 0, 0.2);
+    background: #C52639;
     height: 40px;
 }
 
@@ -311,78 +309,6 @@ footer {
     font-weight: bold;
 }
 
-
-/* ----------------------Personal Info---------------------- */
-
-.personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
-
-.personal-info-item .key,
-.personal-info-item .value {
-    padding-right: 8px;
-    display: inline-block;
-}
-
-.personal-info-item .key p,
-.personal-info-item .value p {
-    margin: 0;
-}
-
-.personal-info-item .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .key p {
-    font-weight: 700;
-}
-
-.personal-info-item .value {
-    position: relative;
-    width: 60%;
-}
-
-/* ----------------------Skills---------------------- */
-
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-/* ----------------------Portfolio----------------------*/
-
-.portfolio-heading {
-    color: #C52639;
-    margin-bottom: 10px;
-    padding-top: 25px;
-    text-align: center;
-}
-
-.portfolio-items {
-    color: #C52639;
-    margin-bottom: 300px;
-
-
-}
 
 
 /* ----------------------Contact Form---------------------- */
