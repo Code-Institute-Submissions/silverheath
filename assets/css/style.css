@@ -6,7 +6,7 @@
     background-color: #D9D9D8;
 }
 
-.bg-color-three-reasons {
+.bg-color-main-section {
     background-color: #fff;
 }
 
@@ -14,28 +14,28 @@
     background-color: #f4f4f4;
 }
 
-.bg-color-work-history {
-    background-color: #9b59b6;
+.bg-color-portfolio {
+    background-color: #625986;
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: white;
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #625986;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #625986;
 }
 
 .ui-menu-color-about {
-    background-color: #9b59b6;
+    background-color: #C52639;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #C52639;
 }
 
 .ui-menu-color-download {
@@ -56,7 +56,21 @@
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.portfolio-heading {
+    color: #625986;
+    font-weight: bold;
+}
+
+.portfolio-items {
+    color: white;
+}
+
+.examples {
+    color: white;
+
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -75,7 +89,7 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: #C52639;
 }
 
 .inline-block {
@@ -101,6 +115,7 @@ h4 {
 }
 
 
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -109,8 +124,8 @@ header {
 
 .heading {
     margin-top: 30px;
-    margin-left: 180px;
-    
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -119,7 +134,8 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #D9D9D8;
-    min-height: 160px;
+    min-height: 150px;
+    max-height: 247px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -132,6 +148,7 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #625986;
+    text-align: center;
 }
 
 .title {
@@ -141,7 +158,7 @@ header {
     margin-top: 5px;
     margin-bottom: 20px;
     color: #C52639;
-    text-align: left;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -162,7 +179,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 40px;
     text-align: center;
     padding: 0;
 }
@@ -171,7 +188,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 40px;
 }
 
 .menuitem a i {
@@ -192,25 +209,65 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------Hover.css*/
+/*----------------------summary----------------------*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+.topline {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 100;
+    margin-left: 200;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #625986;
 }
 
-/* ----------------------------------------Footer */
+.middleline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100;
+    margin-left: 200;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #625986;
+}
+
+.bottomline {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-bottom: 100;
+    margin-left: 200;
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #625986;
+}
+
+/*----------------------Hover.css----------------------*/
+
+/* hvr-underline-from-center:before */
+
+hvr-outline-out {
+    background: rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+/* ----------------------Footer---------------------- */
 
 footer {
     background-color: #525252;
-    color: #fafafa;
+    color: #C52639;
     min-height: 120px;
     margin: 0;
 }
 
 .cv-pdf i {
     font-size: 18px;
-    color: #fafafa;
+    color: #625986;
     text-align: center;
     padding-left: 5px;
     transition: all 0.35s ease-in-out;
@@ -220,7 +277,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #C52639;
 }
 
 .social-links {
@@ -235,7 +292,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #C52639;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -244,25 +301,18 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #625986;
 }
 
 #footer-details {
     padding: 20px;
+    background-color: #D9D9D8;
+    color: #C52639;
+    font-weight: bold;
 }
 
-/* ----------------------------------------Three Reasons */
 
-.three-reasons-icon {
-    font-size: 26px;
-    color: #e67e22;
-}
-
-.three-reasons-heading {
-    margin-bottom: 15px;
-}
-
-/* ----------------------------------------Personal Info */
+/* ----------------------Personal Info---------------------- */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -297,7 +347,7 @@ footer {
     width: 60%;
 }
 
-/* ----------------------------------------Skills */
+/* ----------------------Skills---------------------- */
 
 .progress {
     position: relative;
@@ -318,55 +368,24 @@ footer {
     margin: 40px 20px;
 }
 
-/* ----------------------------------------Work History */
+/* ----------------------Portfolio----------------------*/
 
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
+.portfolio-heading {
+    color: #C52639;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    text-align: center;
 }
 
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
+.portfolio-items {
+    color: #C52639;
+    margin-bottom: 300px;
+
+
 }
 
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
 
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
-/* ----------------------------------------Contact Form */
+/* ----------------------Contact Form---------------------- */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -384,19 +403,11 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
-}
-.index {
-    margin-top:25px;
-    min-width: 50px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #e84610;
-    
+    color: white;
+    background-color: #625986;
 }
 
-/* ----------------------------------------Media Queries */
+/* ----------------------Media Queries---------------------- */
 
 @media(min-width: 992px) {
     .center-form {
