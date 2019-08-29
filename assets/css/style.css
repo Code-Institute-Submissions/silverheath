@@ -108,7 +108,7 @@ h4 {
 
 .bottom-resume {
     padding: 0 130px 130px;
-    
+
 }
 
 
@@ -121,7 +121,7 @@ header {
 .heading {
     margin-top: 30px;
     margin-left: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -137,25 +137,14 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.name {
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 130px;
-    color: #625986;
-    text-align: left;
-}
-
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 800;
-    font-size: 40px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 130px;
-    color: #C52639;
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    color: #625986;
     text-align: left;
 }
 
@@ -177,36 +166,63 @@ header {
 }
 
 .menuitem {
-    height: 40px;
+    height: 60px;
     text-align: center;
-    padding: 0;
+
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 40px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
+    height: 60px;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
+/*----------------------intro----------------------*/
+
+.intro {
+    font-family: "Exo", sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    width: 95%;
+
+}
+
+.intro-header {
+    font-family: "Exo", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 100%;
+
+}
+
+/*----------------------about----------------------*/
+
+.about { 
+    font-family: "Exo", sans-serif;
+    width: 90%;
+    margin-left: 25px;
+    
+}
 /*----------------------summary----------------------*/
 
 .topline {
@@ -310,29 +326,6 @@ footer {
 }
 
 
-
-/* ----------------------Contact Form---------------------- */
-
-.contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: #625986;
-}
-
 /* ----------------------Media Queries---------------------- */
 
 @media(min-width: 992px) {
@@ -341,5 +334,26 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+}
+
+@media(max-width: 400px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .title {
+        font-size: 40px;
+        text-align: left;
+        max-width: 100px;
+        padding-left: 5px;
+    }
+    .intro {
+        max-width: 300px;
+    }
+    .intro-heading {
+        max-width: 300px;
     }
 }
