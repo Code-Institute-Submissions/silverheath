@@ -354,7 +354,57 @@ span.a {
     font-weight: bold;
     color: #625986;
 }
+/*----------------------Contact----------------------*/
+.contact {
+    font-family: "Exo", sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 25px;
+    width: 95%;
 
+}
+
+.contact-header {
+    font-family: "Exo", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 100%;
+    color: #C52639;
+
+}
+
+.contact-padding {
+    margin-top: 30px;
+    
+    
+}
+
+.contact-paddingtop {
+    margin-top: 60px;
+    
+    
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------Heading*/
+
+.heading-padding {
+    margin-top: 30px;
+    
+}
 /*----------------------Hover.css----------------------*/
 
 /* hvr-underline-from-center:before */
